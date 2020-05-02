@@ -1,0 +1,111 @@
+/*font families
+Text font-family: 'Crimson Text', serif;
+H2   font-family: 'Permanent Marker', cursive;
+H1   font-family: 'Pacifico', cursive;
+
+colors
+yellow #F8D418
+black  #000000
+mint   #87F69C
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  html {
+    font-family: 'Crimson Text', serif;
+    color: #ffffff;
+  }
+  body {
+      background-color: black;
+      text-align: center;
+  }
+  
+  h1 {
+    color: #ffffff;
+    font-family: 'Pacifico', cursive;
+    font-weight: 700;
+    font-size: 2.85em;
+    padding: 2%;
+    align-items: center;
+  }
+  
+  h2 {
+    color: #87F69C;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 700;
+    font-size: 2em;
+    padding: 2%;
+    align-items: center;
+  }
+  
+  img {
+    width: 50%;
+    height: auto;
+    margin: 6px;
+    border-radius: 50%;
+  }
+  
+  .column {
+    float: left;
+    text-align: center;
+    width: 31%;
+    padding: 1%;
+  }
+  
+  figcaption {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.25em;
+    text-align: center;
+    padding: 2%;
+  }
+  
+  button {
+    background-color: #F8D418;
+    border: solid white;
+    color: black;
+    padding: 5px 8px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.25em;
+  }
+  
+  .button:hover {
+    background-color: #6a9923;
+    color: white;
+  }
+  
+  /**media query for wider screens**/
+  @media (min-width: 998px) {
+    h1 {
+      font-size: 5em;
+    }
+    
+    h2 {
+      font-size: 3em;
+    }
+  
+    figcaption {
+      font-size: 1.75em;
+    }
+  
+    img {
+      width: 67%;
+      height: auto;
+      margin: 10px;
+    }
+  
+    button {
+      padding: 10px 18px;
+      margin: 10px;
+      font-size: 1.75em;
+    }
+  }
+  
